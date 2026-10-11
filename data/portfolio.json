@@ -1,0 +1,1235 @@
+{
+  "updatedAt": "2026-10-11",
+  "sources": {
+    "professional": "https://github.com/sdk2035/sdk2035",
+    "organization": "https://github.com/robotics-intelligent-systems/.github",
+    "gallery": "https://github.com/robotics-intelligent-systems/.github/blob/main/profile/cad-catalog.json",
+    "professionalBlob": "dfcecbebfcd1bbba6d23558a44074b9957ddfccc",
+    "organizationBlob": "4dfa0222fbb89c355e65534ffd30e52e76bfefa5",
+    "galleryBlob": "5320a4918cf634e1dbca8294e1d4f7c12869661b"
+  },
+  "personal": [
+    {
+      "name": "OpenBAP",
+      "url": "https://github.com/sdk2035/OpenBAP",
+      "area": "Enterprise Modernization and Business Platforms",
+      "description": "AI-assisted enterprise modernization platform combining Apache OFBiz, GraalVM/Truffle and OpenXava for semantic reconstruction, legacy ABAP interoperability and incremental ERP migration",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Define one ERP business-rule fixture and draft semantic equivalence checks."
+    },
+    {
+      "name": "GraalCOBOL",
+      "url": "https://github.com/sdk2035/GraalCOBOL",
+      "area": "Enterprise Modernization and Business Platforms",
+      "description": "Proposed COBOL modernization architecture combining Rascal MPL analysis, a versioned intermediate representation and Truffle/GraalVM execution, with mainframe training and Cobrix–Trino data integration",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Specify the first COBOL subset and draft decimal/copybook differential fixtures."
+    },
+    {
+      "name": "GraalModelica",
+      "url": "https://github.com/sdk2035/GraalModelica",
+      "area": "Modeling, Simulation and Digital Twins",
+      "description": "Modelica-based physical modeling with a GraalVM-oriented runtime approach",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define a minimal Modelica model and solver acceptance criteria."
+    },
+    {
+      "name": "JModelica-Flow",
+      "url": "https://github.com/sdk2035/JModelica-Flow",
+      "area": "Modeling, Simulation and Digital Twins",
+      "description": "Low-code simulation and control canvas for GraalModelica",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Draft the canvas-to-model schema and one simulation workflow."
+    },
+    {
+      "name": "jfxlcdp",
+      "url": "https://github.com/sdk2035/jfxlcdp",
+      "area": "Complementary JFX Engineering Projects",
+      "description": "Reference architecture for metadata-driven low-code authoring, declarative JavaFX interfaces and AI-assisted systems engineering",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Specify one metadata-to-JavaFX screen and its acceptance tests."
+    },
+    {
+      "name": "jfxlegacy2modern",
+      "url": "https://github.com/sdk2035/jfxlegacy2modern",
+      "area": "Complementary JFX Engineering Projects",
+      "description": "AI-assisted legacy modernization architecture: source analysis, behavior-preserving validation, proposed open-source ERP support, cross-product migration and staged version upgrades, with a Frappe-dependent low-code module",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Select one legacy fixture and draft behavior-preserving migration checks."
+    },
+    {
+      "name": "jfxetl4de",
+      "url": "https://github.com/sdk2035/jfxetl4de",
+      "area": "Complementary JFX Engineering Projects",
+      "description": "Data-engineering integration laboratory for ETL/ELT, streaming, lakehouse workflows, data contracts and engineering-data pipelines",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Draft one ingestion contract with provenance, replay and schema-drift cases."
+    },
+    {
+      "name": "jfxicp",
+      "url": "https://github.com/sdk2035/jfxicp",
+      "area": "Complementary JFX Engineering Projects",
+      "description": "Reference architecture for cloud and polyglot interoperability, distributed engineering computing and co-simulation",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Specify a Java/Python worker contract and timeout/error fixtures."
+    },
+    {
+      "name": "jfxengine",
+      "url": "https://github.com/sdk2035/jfxengine",
+      "area": "Complementary JFX Engineering Projects",
+      "description": "Research and architecture connecting MBSE/SysML, 3D visualization, simulation and digital twins with AI-assisted engineering workflows",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Turn one SysML-to-visualization use case into a testable vertical slice."
+    },
+    {
+      "name": "jfxmodelica",
+      "url": "https://github.com/sdk2035/jfxmodelica",
+      "area": "Complementary JFX Engineering Projects",
+      "description": "JFXModelica Cloud AI: modeling, multiphysics simulation and digital-twin platform work around GraalModelica",
+      "status": "Architecture",
+      "progress": "~20%",
+      "nextTask": "Draft one FMU/worker simulation contract and reproducible example."
+    },
+    {
+      "name": "llm-d",
+      "url": "https://github.com/sdk2035/llm-d",
+      "area": "AI Infrastructure and Distributed Inference",
+      "description": "Fork of llm-d/llm-d: distributed LLM inference serving on Kubernetes, including cache-aware routing and prefill/decode disaggregation over model servers such as vLLM",
+      "status": "Upstream fork; local integration proposed",
+      "progress": "N/A · local scope pending",
+      "nextTask": "Draft a bounded local integration plan and benchmark criteria against upstream."
+    },
+    {
+      "name": "GraalJulia",
+      "url": "https://github.com/sdk2035/GraalJulia",
+      "area": "Scientific Computing Languages",
+      "description": "Julia language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define an expression parser MVP and Julia reference fixtures."
+    },
+    {
+      "name": "GraalScilab",
+      "url": "https://github.com/sdk2035/GraalScilab",
+      "area": "Scientific Computing Languages",
+      "description": "Scilab language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define a matrix-expression MVP and numerical reference fixtures."
+    },
+    {
+      "name": "GraalIKVM",
+      "url": "https://github.com/sdk2035/GraalIKVM",
+      "area": "JVM and .NET Interoperability",
+      "description": "Interoperability initiative connecting IKVM.NET concepts with GraalVM and Truffle",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Draft a bounded JVM/.NET interop spike with marshaling and exception tests."
+    },
+    {
+      "name": "TruffleMono",
+      "url": "https://github.com/sdk2035/TruffleMono",
+      "area": "JVM and .NET Interoperability",
+      "description": "AST interpreter infrastructure and IKVM/Mono integration research",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define a minimal CIL instruction subset and interpreter fixtures."
+    },
+    {
+      "name": "rascal-mono",
+      "url": "https://github.com/sdk2035/rascal-mono",
+      "area": "JVM and .NET Interoperability",
+      "description": "Rascal-based language tooling with ECMA CLI, C# and .NET integration scope",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Draft a C# extraction fixture and expected M3 facts."
+    },
+    {
+      "name": "asharplang",
+      "url": "https://github.com/sdk2035/asharplang",
+      "area": "JVM and .NET Interoperability",
+      "description": "A# (A Sharp), an Ada-to-.NET port project; recovered MGNAT archive analyzed with package UML and evidence (PR #1)",
+      "status": "Architecture documented; PR under review; build unverified",
+      "progress": "~20% · editorial estimate",
+      "nextTask": "ASHARP-RE-002: analyze Par/Scn/Scans/Sinfo/Atree and trace Ada syntax to parser routines and AST nodes."
+    },
+    {
+      "name": "jsharplang",
+      "url": "https://github.com/sdk2035/jsharplang",
+      "area": "JVM and .NET Interoperability",
+      "description": "JSharp.NET (J#), a Java-oriented language transition project for the .NET ecosystem",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define a Java/J#-to-CIL subset and compiler acceptance fixtures."
+    },
+    {
+      "name": "GraalRascal",
+      "url": "https://github.com/sdk2035/GraalRascal",
+      "area": "Metaprogramming and Language Workbenches",
+      "description": "Proposed Rascal subset on GraalVM/Truffle; technical requirements and high-level draw.io architecture documented",
+      "status": "Architecture documented; PR #1 merged; runtime pending",
+      "progress": "~20%",
+      "nextTask": "GR-REQ-001: define an expression grammar, pin a Rascal reference version and execute positive/negative fixtures before implementing the runtime."
+    },
+    {
+      "name": "rascal-latino",
+      "url": "https://github.com/sdk2035/rascal-latino",
+      "area": "Metaprogramming and Language Workbenches",
+      "description": "Rascal metaprogramming with a Latino core implementation",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Draft one Latino AST transformation and traceability fixture."
+    },
+    {
+      "name": "GraalLatino",
+      "url": "https://github.com/sdk2035/GraalLatino",
+      "area": "Metaprogramming and Language Workbenches",
+      "description": "Latino language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define the first Latino grammar subset and execution fixtures."
+    },
+    {
+      "name": "GraalClang",
+      "url": "https://github.com/sdk2035/GraalClang",
+      "area": "Polyglot Language Projects",
+      "description": "Clang-related compiler and GraalVM integration work",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Scope one Clang/GraalVM integration path and a compile/run fixture."
+    },
+    {
+      "name": "GraalVala",
+      "url": "https://github.com/sdk2035/GraalVala",
+      "area": "Polyglot Language Projects",
+      "description": "Vala language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define a Vala subset and reference compiler fixtures."
+    },
+    {
+      "name": "GraalAugusta",
+      "url": "https://github.com/sdk2035/GraalAugusta",
+      "area": "Polyglot Language Projects",
+      "description": "Augusta language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Document the Augusta grammar and first parser acceptance cases."
+    },
+    {
+      "name": "GraalOCaml",
+      "url": "https://github.com/sdk2035/GraalOCaml",
+      "area": "Polyglot Language Projects",
+      "description": "OCaml language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Define an OCaml expression subset and evaluation fixtures."
+    },
+    {
+      "name": "GraalEiffel",
+      "url": "https://github.com/sdk2035/GraalEiffel",
+      "area": "Polyglot Language Projects",
+      "description": "Eiffel language implementation work targeting GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Scope a first Eiffel class and design-by-contract fixture."
+    },
+    {
+      "name": "JFXBlender",
+      "url": "https://github.com/sdk2035/JFXBlender",
+      "area": "3D Modeling, CAD and Educational Visualization",
+      "description": "3D modeling environment",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Specify one 3D scene import/view workflow and acceptance criteria."
+    },
+    {
+      "name": "JWebCAD",
+      "url": "https://github.com/sdk2035/JWebCAD",
+      "area": "3D Modeling, CAD and Educational Visualization",
+      "description": "Browser-based 3D CAD design and editing project using GraalVM",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Draft a browser CAD MVP with one editable primitive and export fixture."
+    },
+    {
+      "name": "JDot",
+      "url": "https://github.com/sdk2035/JDot",
+      "area": "3D Modeling, CAD and Educational Visualization",
+      "description": "Educational 3D animation web engine with a unified interface and GraalVM integration",
+      "status": "Concept",
+      "progress": "~10%",
+      "nextTask": "Specify one educational animation scene and playback acceptance cases."
+    }
+  ],
+  "organization": [
+    {
+      "name": "jfxai4mhers",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mhers",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Humanoid/exoskeleton robotics, simulation, learning and deployment architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one robot-description contract and reproducible simulation fixture."
+    },
+    {
+      "name": "jfxai4rss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4rss",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Robotic-surgery simulation, medical imaging and biomedical engineering research",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one non-clinical training scenario and simulation acceptance criteria."
+    },
+    {
+      "name": "jfxai4rpcs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4rpcs",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Robotic pest-control systems",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft a labeled crop-observation fixture and reviewed detection workflow."
+    },
+    {
+      "name": "jfxai4rffs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4rffs",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Robotic firefighting systems and simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one virtual training scenario and instructor-reviewed acceptance cases."
+    },
+    {
+      "name": "jfxosms",
+      "url": "https://github.com/robotics-intelligent-systems/jfxosms",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Microfactory engineering, manufacturing simulation and operator decision-support architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one inventory/production scenario with baseline optimization checks."
+    },
+    {
+      "name": "jfxlms4air",
+      "url": "https://github.com/robotics-intelligent-systems/jfxlms4air",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Localization and mapping for autonomous inspection robots",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one recorded inspection dataset and localization evaluation protocol."
+    },
+    {
+      "name": "jfxrtess",
+      "url": "https://github.com/robotics-intelligent-systems/jfxrtess",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Real-time simulation, testing and rapid control prototyping",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one model-in-the-loop test with timing and artifact provenance."
+    },
+    {
+      "name": "jfxai4ceps",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4ceps",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Chemical and process simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one process-model contract with units, balances and solver checks."
+    },
+    {
+      "name": "jfxscada",
+      "url": "https://github.com/robotics-intelligent-systems/jfxscada",
+      "area": "Robotics and Industrial Simulation",
+      "description": "Supervisory control and data acquisition",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one read-only telemetry adapter and replayable alarm fixture."
+    },
+    {
+      "name": "jfxai4arch",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4arch",
+      "area": "Applied Artificial Intelligence",
+      "description": "Technical knowledge and agent architecture, with an initial local RAG pilot",
+      "status": "Executable RAG pilot",
+      "progress": "~50%",
+      "nextTask": "Draft a source-grounded evaluation set and validate optional local-model generation."
+    },
+    {
+      "name": "jfxai4bio",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4bio",
+      "area": "Applied Artificial Intelligence",
+      "description": "Bioinformatics",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one public-dataset analysis workflow with reproducibility checks."
+    },
+    {
+      "name": "jfxai4dia",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4dia",
+      "area": "Applied Artificial Intelligence",
+      "description": "Physics-driven industrial design automation, CAD and engineering validation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one CAD-to-simulation case with units and validation evidence."
+    },
+    {
+      "name": "jfxai4cv",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4cv",
+      "area": "Applied Artificial Intelligence",
+      "description": "Medical imaging, segmentation, scientific visualization and computer-vision research",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft a de-identified research imaging fixture and segmentation evaluation criteria."
+    },
+    {
+      "name": "jfxai4nlp",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4nlp",
+      "area": "Applied Artificial Intelligence",
+      "description": "NLP, knowledge extraction, code intelligence and AI evaluation architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft an extraction schema, labeled sample set and evaluation criteria."
+    },
+    {
+      "name": "jfxai4cbs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4cbs",
+      "area": "Applied Artificial Intelligence",
+      "description": "Cybersecurity",
+      "status": "Concept / technology compendium",
+      "progress": "~10%",
+      "nextTask": "Define an isolated defensive log-analysis exercise and detection metrics."
+    },
+    {
+      "name": "jfxai4rs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4rs",
+      "area": "Applied Artificial Intelligence",
+      "description": "Remote sensing",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one geospatial dataset contract with coordinates and provenance checks."
+    },
+    {
+      "name": "jfxai4mar",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mar",
+      "area": "Applied Artificial Intelligence",
+      "description": "Augmented reality applications",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one recorded spatial-annotation workflow and interaction checks."
+    },
+    {
+      "name": "jfxai4mad",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mad",
+      "area": "Applied Artificial Intelligence",
+      "description": "Travel coordination, Odoo/Flectra modernization research, professional collaboration and adult social-discovery concepts",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one travel-coordination workflow with consent and data-boundary checks."
+    },
+    {
+      "name": "jfxfmis",
+      "url": "https://github.com/robotics-intelligent-systems/jfxfmis",
+      "area": "Agriculture and Built Environment",
+      "description": "Farm management, precision agriculture, agricultural digital twins and telemetry",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one observation-to-twin contract and replayable farm scenario."
+    },
+    {
+      "name": "jfxai4bss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4bss",
+      "area": "Agriculture and Built Environment",
+      "description": "Buildings, infrastructure, smart communities and built-environment digital-twin architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one asset/telemetry mapping and calibration acceptance criteria."
+    },
+    {
+      "name": "jfxotbs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxotbs",
+      "area": "Enterprise and Business Systems",
+      "description": "Aviation operations, travel/booking management and rescue digital-twin architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one booking/operations contract and mocked itinerary reconciliation cases."
+    },
+    {
+      "name": "jfxhms",
+      "url": "https://github.com/robotics-intelligent-systems/jfxhms",
+      "area": "Enterprise and Business Systems",
+      "description": "Hospital management",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one synthetic FHIR workflow with access and audit acceptance cases."
+    },
+    {
+      "name": "jfxai4bpm",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4bpm",
+      "area": "Enterprise and Business Systems",
+      "description": "Business process management",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one business-process model with event and state-transition fixtures."
+    },
+    {
+      "name": "jfxai4ats",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4ats",
+      "area": "Enterprise and Business Systems",
+      "description": "Automated trading, market data, risk and financial messaging architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one trade-record contract and reconciliation acceptance cases."
+    },
+    {
+      "name": "jfxai4obs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4obs",
+      "area": "Enterprise and Business Systems",
+      "description": "Loan management, open banking, payments and financial engineering",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft a sandbox payment contract with idempotency and reconciliation cases."
+    },
+    {
+      "name": "jfxai4ftm",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4ftm",
+      "area": "Enterprise and Business Systems",
+      "description": "Food-truck and mobile food-service management, fleet logistics and digital twins",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one order-to-inventory workflow with fleet-event fixtures."
+    },
+    {
+      "name": "jfxai4ohs",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4ohs",
+      "area": "Enterprise and Business Systems",
+      "description": "B2B commerce, procurement and proposed Mercado Libre MCP/REST integration",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one catalog adapter contract and mocked authorization/error checks."
+    },
+    {
+      "name": "jfxbsc",
+      "url": "https://github.com/robotics-intelligent-systems/jfxbsc",
+      "area": "Enterprise and Business Systems",
+      "description": "Balanced scorecard and strategy performance management",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Define one KPI-to-initiative traceability schema and evaluation fixture."
+    },
+    {
+      "name": "jfxai4moms",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4moms",
+      "area": "Enterprise and Business Systems",
+      "description": "Mine management",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one synthetic geological-data contract with units and provenance checks."
+    },
+    {
+      "name": "jfxai4crm",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4crm",
+      "area": "Enterprise and Business Systems",
+      "description": "Customer relationship management",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one consent-scoped CRM record contract and mocked adapter checks."
+    },
+    {
+      "name": "jfxai4rts",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4rts",
+      "area": "Enterprise and Business Systems",
+      "description": "Recruitment tracking",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one synthetic application schema and human-reviewed extraction evaluation."
+    },
+    {
+      "name": "jfxmbdss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxmbdss",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "OpenTwin MBDSS: maritime digital twins, distributed simulation and AI-assisted analysis",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one archived maritime simulation job with provenance and replay checks."
+    },
+    {
+      "name": "jfxnpss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxnpss",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Jet propulsion and engine modeling",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one propulsion-model comparison with units and reference-result checks."
+    },
+    {
+      "name": "jfxjts",
+      "url": "https://github.com/robotics-intelligent-systems/jfxjts",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Civil flight training and mission-simulation architecture",
+      "status": "Scenario + executable contract harness; 13 tests passed",
+      "progress": "~30%",
+      "nextTask": "Implement one qualified civilian flight-model adapter with pinned provenance, SI/frame checks and recorded replay tolerances."
+    },
+    {
+      "name": "jfxai4mss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mss",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Marine systems and control simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one marine model exchange with units and solver compatibility checks."
+    },
+    {
+      "name": "jfxai4mjas",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mjas",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Transient simulation of reconfigurable models",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one versioned aircraft-model contract and offline validation fixture."
+    },
+    {
+      "name": "jfxai4mass",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mass",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Automotive and driving simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one recorded mobility scenario and reproducible evaluation criteria."
+    },
+    {
+      "name": "jfxai4scss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4scss",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Small-satellite simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one archived satellite-simulation artifact schema and replay checks."
+    },
+    {
+      "name": "jfxai4mlrss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mlrss",
+      "area": "Maritime, Aerospace and Mobility",
+      "description": "Spaceflight, modular launch-system and mission-simulation research",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft a simulation-artifact catalog with provenance and reproducibility checks."
+    },
+    {
+      "name": "jfxoqss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxoqss",
+      "area": "Energy and Scientific Modeling",
+      "description": "Open quantum systems simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one small quantum experiment and reference-solver comparison."
+    },
+    {
+      "name": "jfxoss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxoss",
+      "area": "Energy and Scientific Modeling",
+      "description": "Optical systems simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one optical-bench simulation contract and reference-result fixture."
+    },
+    {
+      "name": "jfxorss",
+      "url": "https://github.com/robotics-intelligent-systems/jfxorss",
+      "area": "Energy and Scientific Modeling",
+      "description": "Radar systems simulation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one archived research dataset manifest with units and provenance checks."
+    },
+    {
+      "name": "jfxai4mess",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4mess",
+      "area": "Energy and Scientific Modeling",
+      "description": "Multi-energy systems, renewable power, storage and co-simulation architecture",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one energy-balance scenario and co-simulation acceptance criteria."
+    },
+    {
+      "name": "jfxai4nhes",
+      "url": "https://github.com/robotics-intelligent-systems/jfxai4nhes",
+      "area": "Energy and Scientific Modeling",
+      "description": "Nuclear hybrid energy systems",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one published research-model comparison and uncertainty evidence checklist."
+    },
+    {
+      "name": "jfxcms",
+      "url": "https://github.com/robotics-intelligent-systems/jfxcms",
+      "area": "Education and Infrastructure",
+      "description": "Programming contests, scientific education, AI-assisted learning and simulation/PME preparation",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one programming exercise with reproducible grading and learning evidence."
+    },
+    {
+      "name": "jfxlms",
+      "url": "https://github.com/robotics-intelligent-systems/jfxlms",
+      "area": "Education and Infrastructure",
+      "description": "Learning management systems",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Specify one course/enrollment adapter and grade-persistence checks."
+    },
+    {
+      "name": "jfxnms",
+      "url": "https://github.com/robotics-intelligent-systems/jfxnms",
+      "area": "Education and Infrastructure",
+      "description": "Network management systems",
+      "status": "Architecture / documentation",
+      "progress": "~20%",
+      "nextTask": "Draft one read-only network inventory contract and telemetry replay fixture."
+    }
+  ],
+  "gallery": [
+    {
+      "project": "jfxai4mhers",
+      "concepts": [
+        {
+          "title": "OpenTwin EXO expedition suit",
+          "description": "Modular expedition-suit concept for studying subsystem packaging, interfaces and simulation requirements.",
+          "path": "MBSE/CAD/h2fly-opentwin-exo-modular-expedition-suit-concept-v3.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mhers/blob/main/MBSE/CAD/h2fly-opentwin-exo-modular-expedition-suit-concept-v3.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mhers/main/MBSE/CAD/h2fly-opentwin-exo-modular-expedition-suit-concept-v3.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxrtess",
+      "concepts": [
+        {
+          "title": "AM-B amphibious motorcycle",
+          "description": "Motorcycle concept for studying rider balance, water immersion, propulsion and transition controls.",
+          "path": "MBSE/CAD/amphibious-motorcycle-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxrtess/blob/main/MBSE/CAD/amphibious-motorcycle-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxrtess/main/MBSE/CAD/amphibious-motorcycle-concept.jpg"
+        },
+        {
+          "title": "AM-S amphibious sport roadster",
+          "description": "Roadster concept connecting occupant packaging, road dynamics, hull loading and water-mode transitions.",
+          "path": "MBSE/CAD/amphibious-sport-roadster.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxrtess/blob/main/MBSE/CAD/amphibious-sport-roadster.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxrtess/main/MBSE/CAD/amphibious-sport-roadster.jpg"
+        },
+        {
+          "title": "AM-U6 amphibious utility vehicle",
+          "description": "Utility-vehicle concept for exploring cargo restraint, load distribution, waterline and service access.",
+          "path": "MBSE/CAD/deeper-vehicle-immersion-in water-mode.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxrtess/blob/main/MBSE/CAD/deeper-vehicle-immersion-in%20water-mode.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxrtess/main/MBSE/CAD/deeper-vehicle-immersion-in%20water-mode.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4dia",
+      "concepts": [
+        {
+          "title": "Hybrid gyrodyne air taxi",
+          "description": "Modular hybrid gyrodyne concept for air-taxi requirements and subsystem integration.",
+          "path": "MBSE/CAD/modular-hybrid-gyrodyne-air-taxi.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4dia/blob/main/MBSE/CAD/modular-hybrid-gyrodyne-air-taxi.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4dia/main/MBSE/CAD/modular-hybrid-gyrodyne-air-taxi.jpg"
+        },
+        {
+          "title": "OpenTwin personal eVTOL",
+          "description": "Personal electric vertical-flight concept for requirements, interfaces and digital-twin exploration.",
+          "path": "MBSE/CAD/opentwin-personal-evtol-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4dia/blob/main/MBSE/CAD/opentwin-personal-evtol-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4dia/main/MBSE/CAD/opentwin-personal-evtol-digital-twin-concept.jpg"
+        },
+        {
+          "title": "Twin-float amphibious gyroplane",
+          "description": "Gyroplane concept with twin floats for studying amphibious operation and integration.",
+          "path": "MBSE/CAD/twin-float-amphibious-gyroplane.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4dia/blob/main/MBSE/CAD/twin-float-amphibious-gyroplane.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4dia/main/MBSE/CAD/twin-float-amphibious-gyroplane.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4mad",
+      "concepts": [
+        {
+          "title": "Hydrojet submersible",
+          "description": "Dolphin-inspired submersible concept for exploring vehicle form and hydrojet integration.",
+          "path": "MBSE/CAD/dolphin-inspired-hydrojet-submersible-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mad/blob/main/MBSE/CAD/dolphin-inspired-hydrojet-submersible-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mad/main/MBSE/CAD/dolphin-inspired-hydrojet-submersible-concept.jpg"
+        },
+        {
+          "title": "OpenTwin amphibious ATV",
+          "description": "Modular amphibious all-terrain vehicle concept for mobility and digital-twin studies.",
+          "path": "MBSE/CAD/opentwin-modular-amphibious-atv-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mad/blob/main/MBSE/CAD/opentwin-modular-amphibious-atv-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mad/main/MBSE/CAD/opentwin-modular-amphibious-atv-digital-twin-concept.jpg"
+        },
+        {
+          "title": "OpenTwin shared-retreat habitat",
+          "description": "Cutaway concept of a modular shared habitat for studying spaces, access, utilities and structural interfaces.",
+          "path": "MBSE/CAD/opentwin-modular-habitat-shared-retreat-cutaway.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mad/blob/main/MBSE/CAD/opentwin-modular-habitat-shared-retreat-cutaway.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mad/main/MBSE/CAD/opentwin-modular-habitat-shared-retreat-cutaway.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxfmis",
+      "concepts": [
+        {
+          "title": "Multi-level floating farm",
+          "description": "Stacked growing-space concept integrating marine structures, utilities and agricultural logistics.",
+          "path": "MBSE/CAD/Overall-3D-view-of-the-Proposed-Multi-level-Floating-Farm-MFF.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxfmis/blob/main/MBSE/CAD/Overall-3D-view-of-the-Proposed-Multi-level-Floating-Farm-MFF.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxfmis/main/MBSE/CAD/Overall-3D-view-of-the-Proposed-Multi-level-Floating-Farm-MFF.jpg"
+        },
+        {
+          "title": "Floating farm",
+          "description": "Concept connecting floating agriculture, fish production, renewable supply and shore operations.",
+          "path": "MBSE/CAD/floating-farm-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxfmis/blob/main/MBSE/CAD/floating-farm-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxfmis/main/MBSE/CAD/floating-farm-concept.jpg"
+        },
+        {
+          "title": "Modular floating farm island",
+          "description": "Terraced agriculture concept with modular structures and resource-loop interfaces.",
+          "path": "MBSE/CAD/modular-floating-farm-island-digital-twin.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxfmis/blob/main/MBSE/CAD/modular-floating-farm-island-digital-twin.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxfmis/main/MBSE/CAD/modular-floating-farm-island-digital-twin.jpg"
+        },
+        {
+          "title": "Offshore blue-economy twins",
+          "description": "Concept board connecting floating infrastructure, aquaculture, support vessels and digital replicas.",
+          "path": "MBSE/CAD/offshore-blue-economy-open-source-digital-twins-concept-v1.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxfmis/blob/main/MBSE/CAD/offshore-blue-economy-open-source-digital-twins-concept-v1.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxfmis/main/MBSE/CAD/offshore-blue-economy-open-source-digital-twins-concept-v1.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4bss",
+      "concepts": [
+        {
+          "title": "Floating offshore stadium",
+          "description": "Floating venue concept for event spaces, hospitality, docking and shared services.",
+          "path": "MBSE/CAD/floating-offshore-stadium-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4bss/blob/main/MBSE/CAD/floating-offshore-stadium-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4bss/main/MBSE/CAD/floating-offshore-stadium-concept.jpg"
+        },
+        {
+          "title": "Modular floating community",
+          "description": "Housing and shared-services concept; the source filename does not establish hurricane resistance.",
+          "path": "MBSE/CAD/hurricane-proof-self-elevating-floating-house-boat-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4bss/blob/main/MBSE/CAD/hurricane-proof-self-elevating-floating-house-boat-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4bss/main/MBSE/CAD/hurricane-proof-self-elevating-floating-house-boat-concept.jpg"
+        },
+        {
+          "title": "Modular offshore platform",
+          "description": "Platform concept integrating living, operations, research, lifting and mission-module spaces.",
+          "path": "MBSE/CAD/self-propelled-twin-hulled-semi-submersible-platform.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4bss/blob/main/MBSE/CAD/self-propelled-twin-hulled-semi-submersible-platform.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4bss/main/MBSE/CAD/self-propelled-twin-hulled-semi-submersible-platform.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxotbs",
+      "concepts": [
+        {
+          "title": "OpenTwin VTOL Rescue LH2",
+          "description": "Cutaway rescue-aircraft concept integrating a modular bay, hydrogen storage, fuel cells and electric propulsion.",
+          "path": "MBSE/CAD/OpenTwin_VTOL_Rescue_LH2_Cutaway_Concept_v1.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxotbs/blob/main/MBSE/CAD/OpenTwin_VTOL_Rescue_LH2_Cutaway_Concept_v1.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxotbs/main/MBSE/CAD/OpenTwin_VTOL_Rescue_LH2_Cutaway_Concept_v1.jpg"
+        },
+        {
+          "title": "Modular GCS trailer",
+          "description": "Mobile ground-control and simulation-station concept for equipment and operator-space integration.",
+          "path": "MBSE/CAD/jfxotbs-modular-gcs-trailer-digital-twin-simulation-concept-v1.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxotbs/blob/main/MBSE/CAD/jfxotbs-modular-gcs-trailer-digital-twin-simulation-concept-v1.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxotbs/main/MBSE/CAD/jfxotbs-modular-gcs-trailer-digital-twin-simulation-concept-v1.jpg"
+        },
+        {
+          "title": "Modular underground hangar",
+          "description": "Hangar concept for storage, maintenance, surface access, ventilation and energy interfaces.",
+          "path": "MBSE/CAD/modular-underground-hangar-digital-twin.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxotbs/blob/main/MBSE/CAD/modular-underground-hangar-digital-twin.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxotbs/main/MBSE/CAD/modular-underground-hangar-digital-twin.jpg"
+        },
+        {
+          "title": "Modular floating airport",
+          "description": "Concept connecting floating modules, airfield spaces, terminals, utilities and maritime access.",
+          "path": "MBSE/CAD/open-modular-mega-floating-airport.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxotbs/blob/main/MBSE/CAD/open-modular-mega-floating-airport.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxotbs/main/MBSE/CAD/open-modular-mega-floating-airport.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxhms",
+      "concepts": [
+        {
+          "title": "Large medical support ship",
+          "description": "Ship concept for arranging medical-support spaces and maritime mission interfaces.",
+          "path": "MBSE/CAD/large-medical-support-ship-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxhms/blob/main/MBSE/CAD/large-medical-support-ship-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxhms/main/MBSE/CAD/large-medical-support-ship-concept.jpg"
+        },
+        {
+          "title": "Medical patrol boat",
+          "description": "Small-vessel concept for coastal or river medical-support missions.",
+          "path": "MBSE/CAD/medical-patrol-boat-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxhms/blob/main/MBSE/CAD/medical-patrol-boat-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxhms/main/MBSE/CAD/medical-patrol-boat-concept.jpg"
+        },
+        {
+          "title": "Modular medical vessel",
+          "description": "Medical-support vessel concept with modular mission spaces and service interfaces.",
+          "path": "MBSE/CAD/modular-medical-vessel-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxhms/blob/main/MBSE/CAD/modular-medical-vessel-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxhms/main/MBSE/CAD/modular-medical-vessel-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4ftm",
+      "concepts": [
+        {
+          "title": "OpenTwin explorer motorhome",
+          "description": "Modular expedition motorhome concept for living-space and mobility studies.",
+          "path": "MBSE/CAD/opentwin-modular-explorer-motorhome-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4ftm/blob/main/MBSE/CAD/opentwin-modular-explorer-motorhome-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4ftm/main/MBSE/CAD/opentwin-modular-explorer-motorhome-digital-twin-concept.jpg"
+        },
+        {
+          "title": "OpenTwin mini teardrop RV",
+          "description": "Compact modular recreational-trailer concept for packaging and digital-twin exploration.",
+          "path": "MBSE/CAD/opentwin-modular-mini-teardrop-rv-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4ftm/blob/main/MBSE/CAD/opentwin-modular-mini-teardrop-rv-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4ftm/main/MBSE/CAD/opentwin-modular-mini-teardrop-rv-digital-twin-concept.jpg"
+        },
+        {
+          "title": "Rising-roof expedition motorhome",
+          "description": "Expedition motorhome concept exploring an expandable roof and accommodation layout.",
+          "path": "MBSE/CAD/rising-roof-expedition-motorhome.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4ftm/blob/main/MBSE/CAD/rising-roof-expedition-motorhome.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4ftm/main/MBSE/CAD/rising-roof-expedition-motorhome.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4moms",
+      "concepts": [
+        {
+          "title": "Floating dry dock",
+          "description": "Dock concept integrating maintenance areas, cranes, keel supports, ballast and logistics.",
+          "path": "MBSE/CAD/floating-dry-dock-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/floating-dry-dock-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/floating-dry-dock-concept.jpg"
+        },
+        {
+          "title": "Offshore platform",
+          "description": "Self-elevating platform concept with working deck, accommodation, utilities and subsea interfaces.",
+          "path": "MBSE/CAD/offshore-platform-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/offshore-platform-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/offshore-platform-concept.jpg"
+        },
+        {
+          "title": "OpenTwin Ocean Mining research vehicle",
+          "description": "Cutaway concept of an uncrewed research vehicle for prospecting, sampling and environmental observation.",
+          "path": "MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxmbdss",
+      "concepts": [
+        {
+          "title": "Hydrogen-hybrid amphibious transport",
+          "description": "High-wing cargo-aircraft concept with electric propulsion and twin floats.",
+          "path": "MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxmbdss/blob/main/MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxmbdss/main/MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg"
+        },
+        {
+          "title": "OpenTwin Marine ground-effect platform",
+          "description": "Waterborne transport concept with a broad wing and interchangeable mission modules.",
+          "path": "MBSE/CAD/liberty-lifter-seaplane-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxmbdss/blob/main/MBSE/CAD/liberty-lifter-seaplane-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxmbdss/main/MBSE/CAD/liberty-lifter-seaplane-concept.jpg"
+        },
+        {
+          "title": "Mobile offshore base",
+          "description": "Floating-base concept for modular logistics and offshore-support spaces.",
+          "path": "MBSE/CAD/mobile-offshore-base-digital-twin.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxmbdss/blob/main/MBSE/CAD/mobile-offshore-base-digital-twin.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxmbdss/main/MBSE/CAD/mobile-offshore-base-digital-twin.jpg"
+        },
+        {
+          "title": "OpenTwin USV H2",
+          "description": "Uncrewed surface-vessel concept combining cargo handling, hydrogen energy and supervised research.",
+          "path": "MBSE/CAD/opentwin-usv-h2-digital-twin-cutaway-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxmbdss/blob/main/MBSE/CAD/opentwin-usv-h2-digital-twin-cutaway-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxmbdss/main/MBSE/CAD/opentwin-usv-h2-digital-twin-cutaway-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxnpss",
+      "concepts": [
+        {
+          "title": "Modular reusable aerospace shuttle",
+          "description": "Reusable-shuttle concept for high-level mission and subsystem integration studies.",
+          "path": "MBSE/CAD/modular-reusable-aerospace-shuttle-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxnpss/blob/main/MBSE/CAD/modular-reusable-aerospace-shuttle-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxnpss/main/MBSE/CAD/modular-reusable-aerospace-shuttle-concept.jpg"
+        },
+        {
+          "title": "Supersonic freighter",
+          "description": "Freighter concept for exploring aerospace configuration and cargo packaging; performance remains unverified.",
+          "path": "MBSE/CAD/supersonic-freighter-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxnpss/blob/main/MBSE/CAD/supersonic-freighter-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxnpss/main/MBSE/CAD/supersonic-freighter-digital-twin-concept.jpg"
+        },
+        {
+          "title": "Supersonic research demonstrator",
+          "description": "Research-aircraft concept for studying configuration and simulation requirements.",
+          "path": "MBSE/CAD/supersonic-research-demonstrator.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxnpss/blob/main/MBSE/CAD/supersonic-research-demonstrator.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxnpss/main/MBSE/CAD/supersonic-research-demonstrator.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxjts",
+      "concepts": [
+        {
+          "title": "Hybrid-electric amphibious aircraft",
+          "description": "Modular aircraft concept connecting amphibious configuration and hybrid-electric integration.",
+          "path": "MBSE/CAD/modular-hybrid-electric-amphibious-aircraft.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxjts/blob/main/MBSE/CAD/modular-hybrid-electric-amphibious-aircraft.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxjts/main/MBSE/CAD/modular-hybrid-electric-amphibious-aircraft.jpg"
+        },
+        {
+          "title": "Hybrid STOL air taxi",
+          "description": "Air-taxi concept for exploring short-field mission requirements and modular integration.",
+          "path": "MBSE/CAD/modular-hybrid-stol-air-taxi.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxjts/blob/main/MBSE/CAD/modular-hybrid-stol-air-taxi.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxjts/main/MBSE/CAD/modular-hybrid-stol-air-taxi.jpg"
+        },
+        {
+          "title": "OpenTwin LH2 hybrid helicopter",
+          "description": "Helicopter concept for hydrogen-energy packaging and hybrid-propulsion interfaces.",
+          "path": "MBSE/CAD/opentwin-lh2-hybrid-helicopter-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxjts/blob/main/MBSE/CAD/opentwin-lh2-hybrid-helicopter-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxjts/main/MBSE/CAD/opentwin-lh2-hybrid-helicopter-digital-twin-concept.jpg"
+        },
+        {
+          "title": "Robotic motion simulator",
+          "description": "Motion-platform concept for studying simulator hardware and training interfaces.",
+          "path": "MBSE/CAD/robotic-motion-simulator.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxjts/blob/main/MBSE/CAD/robotic-motion-simulator.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxjts/main/MBSE/CAD/robotic-motion-simulator.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4mss",
+      "concepts": [
+        {
+          "title": "Amphibious recreational vehicle",
+          "description": "RV concept connecting accommodation, road mobility and water-mode requirements.",
+          "path": "MBSE/CAD/amphibious-rv-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mss/blob/main/MBSE/CAD/amphibious-rv-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mss/main/MBSE/CAD/amphibious-rv-concept.jpg"
+        },
+        {
+          "title": "River cruiser",
+          "description": "River-vessel concept for studying passenger spaces and maritime integration.",
+          "path": "MBSE/CAD/river-cruiser-ship-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mss/blob/main/MBSE/CAD/river-cruiser-ship-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mss/main/MBSE/CAD/river-cruiser-ship-concept.jpg"
+        },
+        {
+          "title": "Solar amphibious catamaran",
+          "description": "Catamaran concept connecting amphibious mobility and solar-energy integration.",
+          "path": "MBSE/CAD/solar-powered-amphibious-catamaran-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mss/blob/main/MBSE/CAD/solar-powered-amphibious-catamaran-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mss/main/MBSE/CAD/solar-powered-amphibious-catamaran-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4mjas",
+      "concepts": [
+        {
+          "title": "OpenTwin H2 seaglider and floating hangar",
+          "description": "Waterborne-aircraft and hangar concept linking electric propulsion, energy logistics and moorings.",
+          "path": "MBSE/CAD/opentwin-h2-seaglider-floating-hangar-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mjas/blob/main/MBSE/CAD/opentwin-h2-seaglider-floating-hangar-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mjas/main/MBSE/CAD/opentwin-h2-seaglider-floating-hangar-digital-twin-concept.jpg"
+        },
+        {
+          "title": "OpenTwin MAD LH2",
+          "description": "Compact personal-aircraft cutaway exploring hydrogen storage, fuel cells, batteries and avionics interfaces.",
+          "path": "MBSE/CAD/opentwin-mad-lh2-digital-twin-cutaway-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mjas/blob/main/MBSE/CAD/opentwin-mad-lh2-digital-twin-cutaway-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mjas/main/MBSE/CAD/opentwin-mad-lh2-digital-twin-cutaway-concept.jpg"
+        },
+        {
+          "title": "OpenTwin AirJet BWB cargo UAV",
+          "description": "Blended-wing-body cargo concept with modular payloads and electric-propulsion energy interfaces.",
+          "path": "MBSE/CAD/uav-cargo-bwb-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mjas/blob/main/MBSE/CAD/uav-cargo-bwb-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mjas/main/MBSE/CAD/uav-cargo-bwb-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4mass",
+      "concepts": [
+        {
+          "title": "OpenTwin amphibious agricultural UGV",
+          "description": "Uncrewed agricultural-vehicle concept for modular field operations and amphibious mobility studies.",
+          "path": "MBSE/CAD/opentwin-amphibious-ugv-agricultural-robot-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mass/blob/main/MBSE/CAD/opentwin-amphibious-ugv-agricultural-robot-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mass/main/MBSE/CAD/opentwin-amphibious-ugv-agricultural-robot-digital-twin-concept.jpg"
+        },
+        {
+          "title": "OpenTwin Explorer habitat",
+          "description": "Habitat concept exploring mobile and fixed configurations and service interfaces.",
+          "path": "MBSE/CAD/opentwin-explorer-mobile-fixed-habitat-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mass/blob/main/MBSE/CAD/opentwin-explorer-mobile-fixed-habitat-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mass/main/MBSE/CAD/opentwin-explorer-mobile-fixed-habitat-digital-twin-concept.jpg"
+        },
+        {
+          "title": "OpenTwin modular protected truck",
+          "description": "Protected-truck concept for studying vehicle packaging and modular mission interfaces.",
+          "path": "MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mass/blob/main/MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mass/main/MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4scss",
+      "concepts": [
+        {
+          "title": "Modular hydrogen airship",
+          "description": "Airship concept with twin-turbine imagery; the asset alone does not establish hydrogen's technical role.",
+          "path": "MBSE/CAD/modular-hydrogen-airship-with-twin-turbines.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4scss/blob/main/MBSE/CAD/modular-hydrogen-airship-with-twin-turbines.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4scss/main/MBSE/CAD/modular-hydrogen-airship-with-twin-turbines.jpg"
+        },
+        {
+          "title": "Modular hydrogen-electric helicopter",
+          "description": "Aerial-platform concept for exploring hydrogen-electric subsystem integration.",
+          "path": "MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4scss/blob/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4scss/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg"
+        },
+        {
+          "title": "Solar HAPS glider",
+          "description": "High-altitude aerial-platform concept for solar-energy and mission studies, stored in the satellite portfolio project.",
+          "path": "MBSE/CAD/solar-haps-glider-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4scss/blob/main/MBSE/CAD/solar-haps-glider-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4scss/main/MBSE/CAD/solar-haps-glider-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4mlrss",
+      "concepts": [
+        {
+          "title": "Modular air launch",
+          "description": "High-level air-launch concept for mission architecture and simulation studies.",
+          "path": "MBSE/CAD/modular-air-launch-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mlrss/blob/main/MBSE/CAD/modular-air-launch-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mlrss/main/MBSE/CAD/modular-air-launch-concept.jpg"
+        },
+        {
+          "title": "Modular rocket",
+          "description": "Launch-vehicle concept for studying module boundaries and requirements traceability.",
+          "path": "MBSE/CAD/modular-rocket-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mlrss/blob/main/MBSE/CAD/modular-rocket-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mlrss/main/MBSE/CAD/modular-rocket-concept.jpg"
+        },
+        {
+          "title": "Multi-body launch configuration",
+          "description": "Multi-body launch concept for high-level configuration and interface exploration.",
+          "path": "MBSE/CAD/multibody-launch-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mlrss/blob/main/MBSE/CAD/multibody-launch-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mlrss/main/MBSE/CAD/multibody-launch-concept.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4mess",
+      "concepts": [
+        {
+          "title": "Coastal hydrogen energy hub",
+          "description": "Concept linking electricity, water treatment, electrolysis, gaseous storage, distribution and fuel cells.",
+          "path": "MBSE/CAD/coastal-hydrogen-energy-hub-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mess/blob/main/MBSE/CAD/coastal-hydrogen-energy-hub-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mess/main/MBSE/CAD/coastal-hydrogen-energy-hub-concept.jpg"
+        },
+        {
+          "title": "Floating tidal-energy platform",
+          "description": "Tidal-stream concept with submerged turbines, moorings, export cables and maintenance interfaces.",
+          "path": "MBSE/CAD/floating-tidal-energy-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mess/blob/main/MBSE/CAD/floating-tidal-energy-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mess/main/MBSE/CAD/floating-tidal-energy-concept.jpg"
+        },
+        {
+          "title": "Modular floating wind",
+          "description": "Wind-platform concept integrating a turbine, buoyancy structures, moorings and electrical export.",
+          "path": "MBSE/CAD/modular-floating-wind-digital-twin.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mess/blob/main/MBSE/CAD/modular-floating-wind-digital-twin.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mess/main/MBSE/CAD/modular-floating-wind-digital-twin.jpg"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4nhes",
+      "concepts": [
+        {
+          "title": "Nuclear-electric ocean research vessel",
+          "description": "Research-vessel concept for high-level energy and maritime integration studies.",
+          "path": "MBSE/CAD/nuclear-electric-ocean-research-vessel.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4nhes/blob/main/MBSE/CAD/nuclear-electric-ocean-research-vessel.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4nhes/main/MBSE/CAD/nuclear-electric-ocean-research-vessel.jpg"
+        },
+        {
+          "title": "Modular floating energy platform",
+          "description": "Floating energy-infrastructure concept for module and service-interface exploration.",
+          "path": "MBSE/CAD/open-modular-floating-energy-twin.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4nhes/blob/main/MBSE/CAD/open-modular-floating-energy-twin.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4nhes/main/MBSE/CAD/open-modular-floating-energy-twin.jpg"
+        },
+        {
+          "title": "Modular subsea energy platform",
+          "description": "Subsea energy concept for high-level packaging and digital-twin requirements.",
+          "path": "MBSE/CAD/open-modular-subsea-energy-twin.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4nhes/blob/main/MBSE/CAD/open-modular-subsea-energy-twin.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4nhes/main/MBSE/CAD/open-modular-subsea-energy-twin.jpg"
+        }
+      ]
+    }
+  ]
+}
