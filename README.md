@@ -12,7 +12,7 @@ Professional profile of **Kevin Sanchez (sdk2035)** and the **Robotics & Intelli
 data/portfolio.json       Reviewed content and source blob references
 scripts/build.py         Static page generator (Python standard library)
 docs/index.html          Portfolio overview
-docs/gallery/index.html  62 concepts, search, project filters and image previews
+docs/gallery/index.html  64 concepts, search, project filters and image previews
 docs/sdk2035/index.html   Professional profile and 29 personal projects
 docs/assets/             Styles, progressive enhancement and exported data
 ```
@@ -40,6 +40,6 @@ The content snapshot is dated **2026-10-11** and sourced from:
 - [Organizational profile and current project catalog](https://github.com/robotics-intelligent-systems/.github)
 - [CAD catalog](https://github.com/robotics-intelligent-systems/.github/blob/main/profile/cad-catalog.json)
 
-The gallery includes **62 images in 20 projects**, within the **47-project JFX catalog**. Images load directly from source repositories and retain original source links. Their rights and licenses are governed by those sources; this repository does not relicense third-party images. Remote image availability depends on the source repositories.
+The gallery includes **64 images in 20 projects**, within the **47-project JFX catalog**. Images load directly from source repositories and retain original source links. Their rights and licenses are governed by those sources; this repository does not relicense third-party images. Remote image availability depends on the source repositories.
 
 Professional experience figures come from the public profile. Project statuses and next AI-assisted tasks are dated snapshots. Visual concepts do not establish validated CAD geometry or demonstrated performance.
