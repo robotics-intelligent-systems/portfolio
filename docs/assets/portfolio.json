@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12 \u00b7 scoped JFXOSMS/JFXAI4MOMS update; other entries retain baseline dates",
+  "updatedAt": "2026-10-12 \u00b7 scoped NEREO/LUMEN-3 catalog update; other entries retain baseline dates",
   "sources": {
     "professional": "https://github.com/sdk2035/sdk2035",
     "organization": "https://github.com/robotics-intelligent-systems/.github",
@@ -528,10 +528,10 @@
       "name": "jfxai4moms",
       "url": "https://github.com/robotics-intelligent-systems/jfxai4moms",
       "area": "Enterprise and Business Systems",
-      "description": "Mining operations, geological modeling and Ocean Mining research vehicle; offshore/dock support concepts maintained in JFXOSMS.",
+      "description": "Mining/geological operations and subsea concepts: Ocean Mining, NEREO assembly humanoid and LUMEN-3 science/tourism submersible; support infrastructure maintained in JFXOSMS.",
       "status": "Architecture / documentation",
       "progress": "~20%",
-      "nextTask": "Draft one synthetic geological-data contract with units and provenance checks."
+      "nextTask": "Reconcile NEREO/LUMEN-3 geometry and define reviewed mission/model contracts before simulation."
     },
     {
       "name": "jfxai4crm",
@@ -962,6 +962,28 @@
           "path": "MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg",
           "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg",
           "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg"
+        },
+        {
+          "title": "OpenTwin NEREO subsea humanoid",
+          "description": "Modular underwater humanoid concept for supervised bimanual infrastructure assembly, interchangeable tools and structural bracing; proposed free-software digital twin.",
+          "path": "MBSE/CAD/opentwin-nereo-subsea-humanoid-digital-twin-concept-v1.jpg",
+          "category": "Subsea robotics / infrastructure assembly",
+          "references": "Aquanaut (Nauticus Robotics); OceanOneK (Stanford); functional references only",
+          "simulation": "FreeCAD \u2192 ROS 2 / Gazebo; OpenModelica energy and actuator-model alternative",
+          "status": "Visual concept; depth, loads, fixation, hydrodynamics and simulation evidence pending",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/opentwin-nereo-subsea-humanoid-digital-twin-concept-v1.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/opentwin-nereo-subsea-humanoid-digital-twin-concept-v1.jpg"
+        },
+        {
+          "title": "OpenTwin LUMEN-3 scientific and tourism submersible",
+          "description": "Original three-occupant concept (pilot and two observers) with panoramic cabin, interchangeable scientific sensor cassette and transport cradle; approved visual revision v2.",
+          "path": "MBSE/CAD/opentwin-lumen-3-scientific-tourism-submersible-digital-twin-concept-v2.jpg",
+          "category": "Scientific exploration / sightseeing submersible",
+          "references": "U-Boat Worx yacht, C-Researcher and Cruise Sub series; functional references only",
+          "simulation": "FreeCAD \u2192 ROS 2 / Gazebo; OpenModelica energy and cabin-system studies",
+          "status": "Visual concept; passenger capacity, depth, pressure integrity, life support and simulation evidence pending",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/opentwin-lumen-3-scientific-tourism-submersible-digital-twin-concept-v2.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/opentwin-lumen-3-scientific-tourism-submersible-digital-twin-concept-v2.jpg"
         }
       ]
     },
