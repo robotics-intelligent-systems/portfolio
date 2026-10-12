@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12 \u00b7 scoped JFXOSMS update; other entries retain baseline dates",
+  "updatedAt": "2026-10-12 \u00b7 scoped JFXOSMS/JFXAI4MOMS update; other entries retain baseline dates",
   "sources": {
     "professional": "https://github.com/sdk2035/sdk2035",
     "organization": "https://github.com/robotics-intelligent-systems/.github",
@@ -312,7 +312,7 @@
       "name": "jfxosms",
       "url": "https://github.com/robotics-intelligent-systems/jfxosms",
       "area": "Robotics and Industrial Simulation",
-      "description": "Modular microfactories and Plant S floating dock; SysML requirements and AI-assisted simulation architecture for naval, drone and mechatronic assembly.",
+      "description": "Modular microfactories, Plant S floating dock and transferred offshore/dry-dock infrastructure; SysML requirements and AI-assisted simulation architecture.",
       "status": "Architecture / requirements; concept documented",
       "progress": "~20%",
       "nextTask": "OSMS-S-PILOT-001: version parameters and execute a labelled synthetic access/transfer fixture."
@@ -528,7 +528,7 @@
       "name": "jfxai4moms",
       "url": "https://github.com/robotics-intelligent-systems/jfxai4moms",
       "area": "Enterprise and Business Systems",
-      "description": "Mine management",
+      "description": "Mining operations, geological modeling and Ocean Mining research vehicle; offshore/dock support concepts maintained in JFXOSMS.",
       "status": "Architecture / documentation",
       "progress": "~20%",
       "nextTask": "Draft one synthetic geological-data contract with units and provenance checks."
@@ -957,20 +957,6 @@
       "project": "jfxai4moms",
       "concepts": [
         {
-          "title": "Floating dry dock",
-          "description": "Dock concept integrating maintenance areas, cranes, keel supports, ballast and logistics.",
-          "path": "MBSE/CAD/floating-dry-dock-concept.jpg",
-          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/floating-dry-dock-concept.jpg",
-          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/floating-dry-dock-concept.jpg"
-        },
-        {
-          "title": "Offshore platform",
-          "description": "Self-elevating platform concept with working deck, accommodation, utilities and subsea interfaces.",
-          "path": "MBSE/CAD/offshore-platform-concept.jpg",
-          "preview": "https://github.com/robotics-intelligent-systems/jfxai4moms/blob/main/MBSE/CAD/offshore-platform-concept.jpg",
-          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4moms/main/MBSE/CAD/offshore-platform-concept.jpg"
-        },
-        {
           "title": "OpenTwin Ocean Mining research vehicle",
           "description": "Cutaway concept of an uncrewed research vehicle for prospecting, sampling and environmental observation.",
           "path": "MBSE/CAD/opentwin-ocean-mining-digital-twin-cutaway-concept.jpg",
@@ -1268,6 +1254,30 @@
           "status": "Visual concept and proposed high-level requirements; lifting capacity, stability and simulation evidence pending",
           "requirements": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/docs/requirements/small-floating-dock-high-level-specification.md",
           "diagram": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/MBSE/CAS/Drawio/JFXOSMS_Small_Floating_Dock_High_Level_Requirements.drawio"
+        },
+        {
+          "title": "Floating dry dock",
+          "description": "Dock concept integrating maintenance areas, cranes, keel supports, ballast and logistics.",
+          "path": "MBSE/CAD/floating-dry-dock-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/MBSE/CAD/floating-dry-dock-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxosms/main/MBSE/CAD/floating-dry-dock-concept.jpg",
+          "category": "Manufacturing / offshore support infrastructure",
+          "references": "Transferred from JFXAI4MOMS; JFXOSMS infrastructure scope",
+          "simulation": "FreeCAD; Gazebo / ROS 2 handling; OpenModelica utilities; asset-specific naval/structural/geotechnical studies",
+          "status": "Visual concept; dimensions, capacity, site suitability and simulation evidence pending",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/docs/transferred-offshore-infrastructure-concepts.md"
+        },
+        {
+          "title": "Offshore platform",
+          "description": "Self-elevating platform concept with working deck, accommodation, utilities and subsea interfaces.",
+          "path": "MBSE/CAD/offshore-platform-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/MBSE/CAD/offshore-platform-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxosms/main/MBSE/CAD/offshore-platform-concept.jpg",
+          "category": "Manufacturing / offshore support infrastructure",
+          "references": "Transferred from JFXAI4MOMS; JFXOSMS infrastructure scope",
+          "simulation": "FreeCAD; Gazebo / ROS 2 handling; OpenModelica utilities; asset-specific naval/structural/geotechnical studies",
+          "status": "Visual concept; dimensions, capacity, site suitability and simulation evidence pending",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/docs/transferred-offshore-infrastructure-concepts.md"
         }
       ]
     }
