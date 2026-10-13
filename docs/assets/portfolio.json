@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13 \u00b7 scoped JFXAI4RFFS concept transfer; other entries retain baseline dates",
+  "updatedAt": "2026-10-13 \u00b7 scoped JFXAI4CBS concept transfer; other entries retain baseline dates",
   "sources": {
     "professional": "https://github.com/sdk2035/sdk2035",
     "organization": "https://github.com/robotics-intelligent-systems/.github",
@@ -401,11 +401,11 @@
     {
       "name": "jfxai4cbs",
       "url": "https://github.com/robotics-intelligent-systems/jfxai4cbs",
-      "area": "Applied Artificial Intelligence",
-      "description": "Cybersecurity",
-      "status": "Concept / technology compendium",
+      "area": "Cybersecurity and cyberphysical systems",
+      "description": "Cybersecurity and digital-twin compendium with transferred medical patrol boat and hydrogen-electric helicopter concepts",
+      "status": "Compendium / proposed CAD requirements",
       "progress": "~10%",
-      "nextTask": "Define an isolated defensive log-analysis exercise and detection metrics."
+      "nextTask": "Validate synthetic event replay, stale telemetry and access denial against transferred platform requirements."
     },
     {
       "name": "jfxai4rs",
@@ -466,7 +466,7 @@
       "url": "https://github.com/robotics-intelligent-systems/jfxhms",
       "area": "Enterprise and Business Systems",
       "description": "Hospital management",
-      "status": "Architecture / documentation",
+      "status": "39 locally owned requirements + 7 external PAT references; two CAD concepts; evidence pending",
       "progress": "~20%",
       "nextTask": "Draft one synthetic FHIR workflow with access and audit acceptance cases."
     },
@@ -956,13 +956,6 @@
           "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxhms/main/MBSE/CAD/large-medical-support-ship-concept.jpg"
         },
         {
-          "title": "Medical patrol boat",
-          "description": "Small-vessel concept for coastal or river medical-support missions.",
-          "path": "MBSE/CAD/medical-patrol-boat-concept.jpg",
-          "preview": "https://github.com/robotics-intelligent-systems/jfxhms/blob/main/MBSE/CAD/medical-patrol-boat-concept.jpg",
-          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxhms/main/MBSE/CAD/medical-patrol-boat-concept.jpg"
-        },
-        {
           "title": "Modular medical vessel",
           "description": "Medical-support vessel concept with modular mission spaces and service interfaces.",
           "path": "MBSE/CAD/modular-medical-vessel-concept.jpg",
@@ -1198,13 +1191,6 @@
           "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4scss/main/MBSE/CAD/modular-hydrogen-airship-with-twin-turbines.jpg"
         },
         {
-          "title": "Modular hydrogen-electric helicopter",
-          "description": "Aerial-platform concept for exploring hydrogen-electric subsystem integration.",
-          "path": "MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
-          "preview": "https://github.com/robotics-intelligent-systems/jfxai4scss/blob/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
-          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4scss/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg"
-        },
-        {
           "title": "Solar HAPS glider",
           "description": "High-altitude aerial-platform concept for solar-energy and mission studies, stored in the satellite portfolio project.",
           "path": "MBSE/CAD/solar-haps-glider-concept.jpg",
@@ -1365,6 +1351,29 @@
           "category": "Emergency-response ground logistics",
           "references": "Transferred from jfxai4mass; JFXAI4RFFS proposed COM / ARM baseline",
           "simulation": "Proposed: FreeCAD chassis/modules; vehicle dynamics, loads and twin replay"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4cbs",
+      "concepts": [
+        {
+          "title": "Medical patrol boat",
+          "description": "Small-vessel concept for coastal or river medical-support missions.",
+          "path": "MBSE/CAD/medical-patrol-boat-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/MBSE/CAD/medical-patrol-boat-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4cbs/main/MBSE/CAD/medical-patrol-boat-concept.jpg",
+          "references": "Transferred concept requirements: https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/docs/requirements/transferred-platform-concepts.md",
+          "status": "Proposed requirements and Drawio/SysML-style views; evidence pending"
+        },
+        {
+          "title": "Modular hydrogen-electric helicopter",
+          "description": "Aerial-platform concept for exploring hydrogen-electric subsystem integration.",
+          "path": "MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4cbs/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
+          "references": "Transferred concept requirements: https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/docs/requirements/transferred-platform-concepts.md",
+          "status": "Proposed requirements and Drawio/SysML-style views; evidence pending"
         }
       ]
     }
