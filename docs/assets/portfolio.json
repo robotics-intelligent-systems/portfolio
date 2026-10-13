@@ -5,8 +5,8 @@
     "organization": "https://github.com/robotics-intelligent-systems/.github",
     "gallery": "https://github.com/robotics-intelligent-systems/.github/blob/main/profile/cad-catalog.json",
     "professionalBlob": "dfcecbebfcd1bbba6d23558a44074b9957ddfccc",
-    "organizationBlob": "4a7dc37e02d682aaf0e902d1b5921b8e92a14a6c",
-    "galleryBlob": "52d5186d3921492efad5e03f0a831ca4c5236eaa"
+    "organizationBlob": "a7b8ac1a2457868e1616b0e875d1ce6272f85e30",
+    "galleryBlob": "5d10bdc52801fa21bcc9d31fb245a55811bcd2ae"
   },
   "personal": [
     {
@@ -1363,8 +1363,10 @@
           "path": "MBSE/CAD/medical-patrol-boat-concept.jpg",
           "preview": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/MBSE/CAD/medical-patrol-boat-concept.jpg",
           "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4cbs/main/MBSE/CAD/medical-patrol-boat-concept.jpg",
-          "references": "Transferred concept requirements: https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/docs/requirements/transferred-platform-concepts.md",
-          "status": "Proposed requirements and Drawio/SysML-style views; evidence pending"
+          "references": "Transferred from JFXHMS; preserved PAT/MED-C IDs",
+          "status": "Proposed requirements and Drawio/SysML-style views; evidence pending",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/docs/requirements/transferred-platform-concepts.md",
+          "diagram": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/MBSE/CAS/Drawio/OpenTwin_Medical_Patrol_Boat_High_Level_Requirements.drawio"
         },
         {
           "title": "Modular hydrogen-electric helicopter",
@@ -1372,8 +1374,10 @@
           "path": "MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
           "preview": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
           "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4cbs/main/MBSE/CAD/modular-hydrogen-electric-helicopter-concept.jpg",
-          "references": "Transferred concept requirements: https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/docs/requirements/transferred-platform-concepts.md",
-          "status": "Proposed requirements and Drawio/SysML-style views; evidence pending"
+          "references": "Transferred from JFXAI4SCSS; new HEL-01\u201307 requirements",
+          "status": "Proposed requirements and Drawio/SysML-style views; evidence pending",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/docs/requirements/transferred-platform-concepts.md",
+          "diagram": "https://github.com/robotics-intelligent-systems/jfxai4cbs/blob/main/MBSE/CAS/Drawio/JFXAI4CBS_Hydrogen_Electric_Helicopter_Requirements.drawio"
         }
       ]
     }
