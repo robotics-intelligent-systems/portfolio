@@ -12,7 +12,7 @@ Professional profile of **Kevin Sanchez (sdk2035)** and the **Robotics & Intelli
 data/portfolio.json       Reviewed content and source blob references
 scripts/build.py         Static page generator (Python standard library)
 docs/index.html          Portfolio overview
-docs/gallery/index.html  67 concepts, search, project filters and image previews
+docs/gallery/index.html  70 concepts, search, project filters and image previews
 docs/sdk2035/index.html   Professional profile and 29 personal projects
 docs/assets/             Styles, progressive enhancement and exported data
 ```
@@ -40,7 +40,7 @@ The original content baseline is dated **2026-10-11**, with scoped JFXOSMS infra
 - [Organizational profile and current project catalog](https://github.com/robotics-intelligent-systems/.github)
 - [CAD catalog](https://github.com/robotics-intelligent-systems/.github/blob/main/profile/cad-catalog.json)
 
-The gallery includes **67 images in 21 projects**, within the **47-project JFX catalog**. Images load directly from source repositories and retain original source links. Their rights and licenses are governed by those sources; this repository does not relicense third-party images. Remote image availability depends on the source repositories.
+The gallery includes **70 images in 22 projects**, within the **47-project JFX catalog**. Three JFXAI4RPCS agricultural concepts were added on **2026-10-13** from its `MBSE/CAD` JPG assets, with visual-completion and pending-validation status. Images load directly from source repositories and retain original source links. Their rights and licenses are governed by those sources; this repository does not relicense third-party images. Remote image availability depends on the source repositories.
 
 Professional experience figures come from the public profile. Project statuses and next AI-assisted tasks are dated snapshots. Visual concepts do not establish validated CAD geometry or demonstrated performance.
 

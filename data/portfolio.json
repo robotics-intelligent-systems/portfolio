@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-12 · scoped NEREO/LUMEN-3 catalog update; other entries retain baseline dates",
+  "updatedAt": "2026-10-13 · scoped JFXAI4RPCS agricultural concepts update; other entries retain baseline dates",
   "sources": {
     "professional": "https://github.com/sdk2035/sdk2035",
     "organization": "https://github.com/robotics-intelligent-systems/.github",
     "gallery": "https://github.com/robotics-intelligent-systems/.github/blob/main/profile/cad-catalog.json",
     "professionalBlob": "dfcecbebfcd1bbba6d23558a44074b9957ddfccc",
-    "organizationBlob": "7260ad3adc5c6b806f9aad02c8c54adfcc9cb25f",
-    "galleryBlob": "6d55c9978e8bf714ae32242d45df8a7dac32e3cd"
+    "organizationBlob": "daf2a2dfaf8562b3400a8c08b7eaefa4e7ac1066",
+    "galleryBlob": "2157bd894c0d48cb47535e88492b7eda86094625"
   },
   "personal": [
     {
@@ -294,10 +294,10 @@
       "name": "jfxai4rpcs",
       "url": "https://github.com/robotics-intelligent-systems/jfxai4rpcs",
       "area": "Robotics and Industrial Simulation",
-      "description": "Robotic pest-control systems",
-      "status": "Architecture / documentation",
+      "description": "Agricultural scouting, pest-control architecture and rover/drone/modular hybrid tractor concepts",
+      "status": "Architecture / documentation; three agricultural 3D concepts completed 2026-10-13; executable simulation and prototype validation pending",
       "progress": "~20%",
-      "nextTask": "Draft a labeled crop-observation fixture and reviewed detection workflow."
+      "nextTask": "Review rover, drone and tractor requirements; create dimensioned CAD and an observation-only ROS 2 / Gazebo scouting fixture with replay evidence."
     },
     {
       "name": "jfxai4rffs",
@@ -728,6 +728,50 @@
           "references": "§7.1: HOPE Jr, OpenLoong, Berkeley Lite, ToddlerBot, AGILOped; WALK-MAN/Centauro robustness references. OpenArm · Open-TeleVision · DOGlove · OpenExo",
           "simulation": "FreeCAD → URDF/Xacro → ROS 2 / ros2_control → Gazebo; MuJoCo comparison backend",
           "status": "Visual concept; geometry, integration and performance pending validation"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4rpcs",
+      "concepts": [
+        {
+          "title": "Agricultural drone",
+          "description": "Transparent cutaway of propulsion, batteries, flight control, spray tank, pump and crop sensors.",
+          "path": "MBSE/CAD/dron-agricola-gemelo-digital-concepto-3d.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4rpcs/blob/main/MBSE/CAD/dron-agricola-gemelo-digital-concepto-3d.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4rpcs/main/MBSE/CAD/dron-agricola-gemelo-digital-concepto-3d.jpg",
+          "category": "Agricultural aerial robotics",
+          "references": "JFXAI4RPCS agricultural inspection and supervised intervention architecture; repository JPG concept.",
+          "simulation": "Proposed: FreeCAD mass and payload model; PX4 SITL / Gazebo flight, crop sensing and spray-system fixtures.",
+          "status": "3D visual concept completed on 2026-10-13; dimensioned CAD, executable digital twin, simulation results and prototype validation pending.",
+          "reviewedAt": "2026-10-13",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4rpcs#10-simulation-and-mbse-plan"
+        },
+        {
+          "title": "Articulated agricultural ATV rover",
+          "description": "Transparent cutaway of articulation, batteries, electric traction, sensors and control for agricultural mobility.",
+          "path": "MBSE/CAD/rover-agricola-articulado-gemelo-digital-concepto-3d.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4rpcs/blob/main/MBSE/CAD/rover-agricola-articulado-gemelo-digital-concepto-3d.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4rpcs/main/MBSE/CAD/rover-agricola-articulado-gemelo-digital-concepto-3d.jpg",
+          "category": "Agricultural ground robotics",
+          "references": "JFXAI4RPCS agricultural inspection and supervised intervention architecture; repository JPG concept.",
+          "simulation": "Proposed: FreeCAD chassis and articulation; ROS 2 / Gazebo terrain, steering and sensor fixtures.",
+          "status": "3D visual concept completed on 2026-10-13; dimensioned CAD, executable digital twin, simulation results and prototype validation pending.",
+          "reviewedAt": "2026-10-13",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4rpcs#10-simulation-and-mbse-plan"
+        },
+        {
+          "title": "Modular hybrid UGV tractor with mini telerobotic backhoe",
+          "description": "Transparent cutaway of engine-generator, batteries, electric traction and modular hydraulic backhoe with articulated arm and stabilizers.",
+          "path": "MBSE/CAD/tractor-ugv-hibrido-modular-retroexcavadora-concepto-3d.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4rpcs/blob/main/MBSE/CAD/tractor-ugv-hibrido-modular-retroexcavadora-concepto-3d.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4rpcs/main/MBSE/CAD/tractor-ugv-hibrido-modular-retroexcavadora-concepto-3d.jpg",
+          "category": "Modular agricultural ground robotics",
+          "references": "JFXAI4RPCS agricultural inspection and supervised intervention architecture; repository JPG concept.",
+          "simulation": "Proposed: FreeCAD chassis and implement interfaces; ROS 2 / Gazebo arm kinematics and teleoperation; OpenModelica hybrid power and hydraulics.",
+          "status": "3D visual concept completed on 2026-10-13; dimensioned CAD, executable digital twin, simulation results and prototype validation pending.",
+          "reviewedAt": "2026-10-13",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4rpcs#10-simulation-and-mbse-plan"
         }
       ]
     },
