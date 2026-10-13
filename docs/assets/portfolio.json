@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13 \u00b7 scoped JFXAI4CBS concept transfer; other entries retain baseline dates",
+  "updatedAt": "2026-10-13",
   "sources": {
     "professional": "https://github.com/sdk2035/sdk2035",
     "organization": "https://github.com/robotics-intelligent-systems/.github",
@@ -694,6 +694,15 @@
       "status": "Architecture / documentation",
       "progress": "~20%",
       "nextTask": "Draft one read-only network inventory contract and telemetry replay fixture."
+    },
+    {
+      "name": "jfoxpms",
+      "url": "https://github.com/robotics-intelligent-systems/jfoxpms",
+      "area": "Enterprise and Business Systems",
+      "description": "Parking management: spaces, reservations, occupancy and supervision with proposed open architecture and free-software AI.",
+      "status": "Architecture / documentation; implementation and connectors pending",
+      "progress": "~20%",
+      "nextTask": "Validate one camera/sensor occupancy fixture, then implement observation-to-MQTT history and reservation conflict checks."
     }
   ],
   "gallery": [
@@ -1381,5 +1390,24 @@
         }
       ]
     }
+  ],
+  "managementSystems": [
+    "jfoxpms",
+    "jfxfmis",
+    "jfxotbs",
+    "jfxhms",
+    "jfxai4bpm",
+    "jfxai4obs",
+    "jfxai4ftm",
+    "jfxai4ohs",
+    "jfxbsc",
+    "jfxai4moms",
+    "jfxai4crm",
+    "jfxai4rts",
+    "jfxcms",
+    "jfxlms",
+    "jfxnms",
+    "jfxscada",
+    "jfxosms"
   ]
 }
