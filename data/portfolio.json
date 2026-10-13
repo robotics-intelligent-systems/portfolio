@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-13 · scoped JFXAI4RPCS agricultural concepts update; other entries retain baseline dates",
+  "updatedAt": "2026-10-13 · scoped JFXAI4RFFS concept transfer; other entries retain baseline dates",
   "sources": {
     "professional": "https://github.com/sdk2035/sdk2035",
     "organization": "https://github.com/robotics-intelligent-systems/.github",
     "gallery": "https://github.com/robotics-intelligent-systems/.github/blob/main/profile/cad-catalog.json",
     "professionalBlob": "dfcecbebfcd1bbba6d23558a44074b9957ddfccc",
-    "organizationBlob": "daf2a2dfaf8562b3400a8c08b7eaefa4e7ac1066",
-    "galleryBlob": "2157bd894c0d48cb47535e88492b7eda86094625"
+    "organizationBlob": "4a7dc37e02d682aaf0e902d1b5921b8e92a14a6c",
+    "galleryBlob": "52d5186d3921492efad5e03f0a831ca4c5236eaa"
   },
   "personal": [
     {
@@ -303,7 +303,7 @@
       "name": "jfxai4rffs",
       "url": "https://github.com/robotics-intelligent-systems/jfxai4rffs",
       "area": "Robotics and Industrial Simulation",
-      "description": "Robotic firefighting systems and simulation",
+      "description": "Robotic firefighting systems and simulation; protected ground truck and hydrogen-hybrid amphibious transport support concepts",
       "status": "Architecture / documentation",
       "progress": "~20%",
       "nextTask": "Specify one virtual training scenario and instructor-reviewed acceptance cases."
@@ -1035,13 +1035,6 @@
       "project": "jfxmbdss",
       "concepts": [
         {
-          "title": "Hydrogen-hybrid amphibious transport",
-          "description": "High-wing cargo-aircraft concept with electric propulsion and twin floats.",
-          "path": "MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
-          "preview": "https://github.com/robotics-intelligent-systems/jfxmbdss/blob/main/MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
-          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxmbdss/main/MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg"
-        },
-        {
           "title": "OpenTwin Marine ground-effect platform",
           "description": "Waterborne transport concept with a broad wing and interchangeable mission modules.",
           "path": "MBSE/CAD/liberty-lifter-seaplane-concept.jpg",
@@ -1191,13 +1184,6 @@
           "path": "MBSE/CAD/opentwin-explorer-mobile-fixed-habitat-digital-twin-concept.jpg",
           "preview": "https://github.com/robotics-intelligent-systems/jfxai4mass/blob/main/MBSE/CAD/opentwin-explorer-mobile-fixed-habitat-digital-twin-concept.jpg",
           "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mass/main/MBSE/CAD/opentwin-explorer-mobile-fixed-habitat-digital-twin-concept.jpg"
-        },
-        {
-          "title": "OpenTwin modular protected truck",
-          "description": "Protected-truck concept for studying vehicle packaging and modular mission interfaces.",
-          "path": "MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
-          "preview": "https://github.com/robotics-intelligent-systems/jfxai4mass/blob/main/MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
-          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4mass/main/MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg"
         }
       ]
     },
@@ -1344,6 +1330,41 @@
           "simulation": "FreeCAD; Gazebo / ROS 2 handling; OpenModelica utilities; asset-specific naval/structural/geotechnical studies",
           "status": "Visual concept; dimensions, capacity, site suitability and simulation evidence pending",
           "requirements": "https://github.com/robotics-intelligent-systems/jfxosms/blob/main/docs/transferred-offshore-infrastructure-concepts.md"
+        }
+      ]
+    },
+    {
+      "project": "jfxai4rffs",
+      "concepts": [
+        {
+          "title": "Hydrogen-hybrid amphibious transport",
+          "description": "High-wing cargo-aircraft concept with electric propulsion and twin floats.",
+          "path": "MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4rffs/blob/main/MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4rffs/main/MBSE/CAD/hydrogen-hybrid-amphibious-transport-concept.jpg",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4rffs/blob/main/docs/requirements/emergency-response-support-concepts.md",
+          "diagram": "https://github.com/robotics-intelligent-systems/jfxai4rffs/blob/main/MBSE/CAS/Drawio/hydrogen-hybrid-amphibious-transport-high-level-requirements.drawio",
+          "status": "Visual concept; proposed requirements and editable Draw.io available; dimensioned CAD, executable twin and physical validation pending",
+          "reviewedAt": "2026-10-13",
+          "migrationSource": "jfxmbdss",
+          "category": "Amphibious aircraft / emergency logistics",
+          "references": "Transferred from jfxmbdss; JFXAI4RFFS proposed COM / HAT baseline",
+          "simulation": "Proposed: FreeCAD/OpenVSP airframe; JSBSim flight; OpenFOAM floats; OpenModelica gaseous-H2 hybrid energy"
+        },
+        {
+          "title": "OpenTwin modular protected truck",
+          "description": "Protected-truck concept for studying vehicle packaging and modular mission interfaces.",
+          "path": "MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
+          "preview": "https://github.com/robotics-intelligent-systems/jfxai4rffs/blob/main/MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
+          "thumbnail": "https://raw.githubusercontent.com/robotics-intelligent-systems/jfxai4rffs/main/MBSE/CAD/opentwin-modular-armor-truck-digital-twin-concept.jpg",
+          "requirements": "https://github.com/robotics-intelligent-systems/jfxai4rffs/blob/main/docs/requirements/emergency-response-support-concepts.md",
+          "diagram": "https://github.com/robotics-intelligent-systems/jfxai4rffs/blob/main/MBSE/CAS/Drawio/opentwin-modular-armor-truck-high-level-requirements.drawio",
+          "status": "Visual concept; proposed requirements and editable Draw.io available; dimensioned CAD, executable twin and physical validation pending",
+          "reviewedAt": "2026-10-13",
+          "migrationSource": "jfxai4mass",
+          "category": "Emergency-response ground logistics",
+          "references": "Transferred from jfxai4mass; JFXAI4RFFS proposed COM / ARM baseline",
+          "simulation": "Proposed: FreeCAD chassis/modules; vehicle dynamics, loads and twin replay"
         }
       ]
     }

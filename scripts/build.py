@@ -62,7 +62,7 @@ def build_gallery():
         cards = []
         for c in group['concepts']:
             metadata = ''.join(f'<p><strong>{e(label)}:</strong> {e(c[key])}</p>' for key, label in [('category', 'Category'), ('references', 'References'), ('simulation', 'Proposed simulation'), ('status', 'Evidence status')] if c.get(key))
-            technical_links = ''.join(link(c[key], label, 'source-link') for key, label in [('requirements', 'High-level requirements ↗'), ('diagram', 'Editable Drawio ↗')] if c.get(key))
+            technical_links = ' '.join(link(c[key], label, 'source-link') for key, label in [('requirements', 'High-level requirements ↗'), ('diagram', 'Editable Drawio ↗')] if c.get(key))
             search = ' '.join([project, c['title'], c['description']]).lower()
             cards.append(f'''<article class="concept" data-project="{e(project)}" data-search="{e(search)}"><div class="concept-copy"><span class="status">Visual concept</span><h3>{e(c['title'])}</h3><p>{e(c['description'])}</p>{metadata}{technical_links}{link(c['preview'], 'View repository source ↗', 'source-link')}</div><figure><a class="zoom" href="{e(c['preview'])}" data-image="{e(c['thumbnail'])}" data-title="{e(c['title'])}" aria-label="Preview {e(c['title'])}"><img src="{e(c['thumbnail'])}" alt="{e(c['title'])}" loading="lazy" decoding="async"><span>Enlarge ↗</span></a></figure></article>''')
         groups.append(f'<section class="concept-group" data-group="{e(project)}"><div class="group-heading"><h2>{link(ORG + "/" + project, project + " ↗")}</h2><span>{len(cards)} concept studies</span></div><div class="concept-grid">{"".join(cards)}</div></section>')
