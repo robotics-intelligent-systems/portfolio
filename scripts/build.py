@@ -41,7 +41,7 @@ def page(title, description, body, section='', depth=0):
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><a class="brand" href="{prefix}"><span class="brand-mark" aria-hidden="true">R<span>+</span></span><span>Robotics &amp;<br>Intelligent Systems</span></a><nav aria-label="Primary">{nav}</nav>{link(ORG, 'GitHub ↗', 'github-link')}</header>
 <main id="main">{body}</main>
-<footer><div><strong>Robotics &amp; Intelligent Systems</strong><p>Open research. Clear interfaces. Engineering evidence.</p></div><div class="footer-links">{link(prefix + 'gallery/', 'Gallery')}{link(prefix + 'management/', 'Management systems')}{link(prefix + 'sdk2035/', 'Professional profile')}{link(ORG + '/portfolio', 'Website source ↗')}</div><p class="snapshot">Content snapshot · {e(DATA['updatedAt'])}<br>Source repositories define current project status.</p></footer>
+<footer><div><strong>Robotics &amp; Intelligent Systems</strong><p>Open research. Clear interfaces. Engineering evidence.</p></div><div class="footer-links">{link(prefix + 'gallery/', 'Gallery')}{link(prefix + 'management/', 'Management systems')}</div><p class="snapshot">Content snapshot · {e(DATA['updatedAt'])}<br>Source repositories define current project status.</p></footer>
 </body></html>'''
 
 def project_card(p):
