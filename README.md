@@ -6,7 +6,7 @@ Professional profile of **Kevin Sanchez (sdk2035)** and the **Robotics & Intelli
 - [Concept gallery](https://robotics-intelligent-systems.github.io/portfolio/gallery/)
 - [Management systems](https://robotics-intelligent-systems.github.io/portfolio/management/)
 - [Professional profile](https://robotics-intelligent-systems.github.io/portfolio/sdk2035/)
-- [ABISMO · Submarine hotel digital twin](https://robotics-intelligent-systems.github.io/portfolio/twins/submarine-hotel/)
+- [Carapace-Nereida H₂ · hybrid submarine superyacht concept](https://robotics-intelligent-systems.github.io/portfolio/twins/submarine-hotel/)
 
 ## Structure
 
@@ -16,7 +16,7 @@ scripts/build.py         Static page generator (Python standard library)
 docs/index.html          Portfolio overview
 docs/gallery/index.html  70 concepts, search, project filters and image previews
 docs/management/index.html  Management systems, including JFOXPMS
-docs/twins/submarine-hotel/index.html  Interactive modular cutaway and operational scenarios
+docs/twins/submarine-hotel/index.html  Carapace-Nereida H₂ concept board and fusion overview
 docs/sdk2035/index.html   Professional profile and 29 personal projects
 docs/assets/             Styles, progressive enhancement and exported data
 ```
@@ -36,7 +36,7 @@ In **Settings → Pages**, select **Deploy from a branch**, **main**, **/docs**,
 
 ## Content maintenance
 
-Edit `data/portfolio.json`, regenerate with `python3 scripts/build.py`, validate the four pages and commit both the source data and generated pages. The generated `docs/assets/portfolio.json` mirrors the reviewed content. GitHub Pages publishes updates to `main` automatically.
+Edit `data/portfolio.json`, regenerate with `python3 scripts/build.py`, validate the four pages and commit both the source data and generated pages. The generated `docs/assets/portfolio.json` mirrors the reviewed content. The submarine concept page is standalone Spanish HTML and references its illustration in `docs/assets/`; it is separate from the portfolio data generator. GitHub Pages publishes updates to `main` automatically.
 
 The original content baseline is dated **2026-10-11**, with scoped JFXOSMS infrastructure and JFXAI4MOMS NEREO/LUMEN-3 additions on **2026-10-12** and sourced from:
 
