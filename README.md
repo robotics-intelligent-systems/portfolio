@@ -6,6 +6,7 @@ Professional profile of **Kevin Sanchez (sdk2035)** and the **Robotics & Intelli
 - [Concept gallery](https://robotics-intelligent-systems.github.io/portfolio/gallery/)
 - [Management systems](https://robotics-intelligent-systems.github.io/portfolio/management/)
 - [Professional profile](https://robotics-intelligent-systems.github.io/portfolio/sdk2035/)
+- [ABISMO · Submarine hotel digital twin](https://robotics-intelligent-systems.github.io/portfolio/twins/submarine-hotel/)
 
 ## Structure
 
@@ -15,6 +16,7 @@ scripts/build.py         Static page generator (Python standard library)
 docs/index.html          Portfolio overview
 docs/gallery/index.html  70 concepts, search, project filters and image previews
 docs/management/index.html  Management systems, including JFOXPMS
+docs/twins/submarine-hotel/index.html  Interactive modular cutaway and operational scenarios
 docs/sdk2035/index.html   Professional profile and 29 personal projects
 docs/assets/             Styles, progressive enhancement and exported data
 ```
